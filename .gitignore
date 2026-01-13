@@ -26,7 +26,8 @@ mono_crash.*.json
 *.log
 
 # IDE
-.vscode/
+.vscode/*
+!.vscode/mcp.json.example
 .idea/
 
 # OS-specific
@@ -50,3 +51,7 @@ user://
 # Test artifacts
 .gut/
 junit_*.xml
+
+# MCP Server
+godot-mcp/node_modules/
+godot-mcp/build/

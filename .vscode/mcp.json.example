@@ -1,0 +1,16 @@
+{
+	"servers": {
+		"godot-mcp": {
+			"type": "stdio",
+			"command": "node",
+			"args": [
+				"${workspaceFolder}/godot-mcp/build/index.js"
+			],
+			"env": {
+				"DEBUG": "true",
+				"GODOT_PATH": "YOUR_GODOT_PATH_HERE"
+			}
+		}
+	},
+	"inputs": []
+}
