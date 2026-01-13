@@ -19,6 +19,7 @@ mono_crash.*.json
 # Environment variables and secrets
 .env
 .env.*
+!.env.example
 *.key
 *.crt
 
